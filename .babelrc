@@ -1,0 +1,15 @@
+{
+  "presets": ["razzle/babel", "@babel/preset-typescript"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "@components": "./src/components",
+          "@pages": "./src/pages"
+        }
+      }
+    ]
+  ]
+}
